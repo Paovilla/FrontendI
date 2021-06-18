@@ -1,0 +1,49 @@
+.headerImg{
+    text-align: center;
+    background-color: #1283b8;
+    background-size: 150px;
+    height: 150px;
+}
+
+h1,h3 {
+    color: #01070a;
+    background-color: #1283b8;
+    padding: 5px;
+}
+
+.mainTitle{
+    text-align: center;
+}
+.otherList{
+    list-style: none;
+
+}
+.subOtherList{
+    padding-left: 79px;
+}
+footer{
+
+    text-align: center;
+    background-color: #1283b8;
+    width: auto;
+    height: auto;
+    position: relative;
+   display: flex;
+}
+.footerS{
+    font-size: 25px;
+    color: #01070a;
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 100%;
+    display: flex;
+}
+img{
+    height: 60%;
+    padding: 10px 10px 0 15px;
+}
+.containerInfo{
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+}
