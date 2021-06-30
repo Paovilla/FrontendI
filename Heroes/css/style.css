@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;   
+    
+}
+
+ /* Header*/
+
+
+
+ .header_top {
+    background-color: #1cd1b0;
+    height: 38px;
+    width: 100%;
+    
+ }
+
+ .header_top p {
+    margin-left: 10px;
+    
+ }
+
+.header_tittle {
+    background-color: #00669F;
+    font-size: 40px;
+    height: 101px;
+    position: fixed;
+    top: 38px;
+    width: 100%;
+    z-index: 2;
+}
+
+.header_tittle p {
+    margin-left: 10px;
+}
+
+/* Main */
+.main_container{
+    display: flex;
+    height: 833px;
+}
+
+.card_container{
+    background-color: #f3f3f3;
+    border-radius: 16px 16px 0px 0px;
+    height: 529px;
+    margin: 150px 50px;   
+    position: relative;    
+    text-align: center;  
+    width: 300px;   
+}
+
+.card_image{
+    height: 193px;
+}
+
+.iconify {
+    position: absolute;
+    left: 20px;
+    margin-left: 21px;
+    margin-top: 15px;
+}
+
+.batman_background {
+    background-image: url("../Img/fondo_batman.jpg");
+    height: 193px;
+    width: 300px;
+    
+}
+
+.harley_background {
+    background-image: url("../Img/Harley_fondo.jpg");
+    height: 193px;
+    width: 300px;
+    
+}
+
+.profile_image {
+    border-radius: 50%;
+    margin-top: -60px;
+}
+
+.profile_name {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 60px;
+    
+}
+
+.card_info p {   
+    color: #333333;
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+.show_more {
+    background-color: #00669F;
+    border: solid 3px black;
+    width: 128.78px;
+    height: 48.52px;
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    height: 51px;
+}
+
+footer p{
+    margin-left: 10px;
+}
