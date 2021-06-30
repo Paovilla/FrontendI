@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #222222;
+  height: 25px;
+  color: white;
+  padding-top: 10px;
+  font-size: small;
+  padding-left: 20px;
+}
+
+.ofertas {
+  padding-left: 85px;
+}
+
+.argentina-menu {
+  float: right;
+  padding-right: 35px;
+}
+
+.esp-menu {
+  float: right;
+  padding-right: 15px;
+}
+
+.navbar {
+  background: #f0a83e;
+  height: 90px;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 13%;
+  padding-left: 57px;
+  position: relative;
+  top: 30px;
+}
+
+.menu {
+  width: 30%;
+  margin-left: 660px;
+  position: relative;
+  top: 30px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-info {
+  width: 100%;
+}
+
+.huella {
+  text-align: center;
+  width: 100%;
+}
+
+.productos-titulo {
+  font-size: 3em;
+  text-align: center;
+  color: #3c2313;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.productos-subtitulo {
+  text-align: center;
+  width: 100%;
+  color: #666666;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.productos {
+  text-align: center;
+  width: 100%;
+}
+
+.contacto-titulo {
+  font-family: Roboto;
+  color: #3c2313;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.input-formulario {
+  padding-left: 550px;
+}
+
+.multiple {
+  margin-top: 5px;
+}
+
+.formulario-botones {
+  height: 150px;
+}
+
+.reset {
+  padding-left: 540px;
+  margin-top: 30px;
+}
+
+.enviar {
+  padding-left: 40px;
+}
+
+footer {
+  width: 100%;
+}
+
+.newsletter {
+  background: #f0a83e;
+  height: 60px;
+  color: white;
+  width: 100%;
+}
+
+.enviar-correo {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.newsletter span {
+  padding-left: 20px;
+}
+
+.input-suscribir {
+  float: right;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.info-contacto {
+  background: #3c2313;
+  height: 284px;
+  color: white;
+  width: 100%;
+}
+
+.icono {
+  padding-left: 80px;
+}
+
+.info-texto {
+  color: white;
+  padding-left: 20px;
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.info-sub-texto {
+  color: white;
+  padding-left: 20px;
+}
+
+.copyright {
+  background: #222222;
+  height: 20px;
+  color: white;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo1 {
+  float: right;
+  padding-right: 80px;
+}
+
+.iconos {
+  padding-left: 80px;
+}
