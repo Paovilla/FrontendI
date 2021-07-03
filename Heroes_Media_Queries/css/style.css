@@ -28,7 +28,7 @@
     background-color: #00669F;
     display: flex;
     font-size: 25px;
-    height: 80px;
+    height: 60px;
     position: fixed;
     top: 38px;
     width: 100%;
@@ -51,7 +51,7 @@
     background-color: #f3f3f3;
     border-radius: 25px 25px 0px 0px;
     height: 600px;
-    margin: 150px;
+    margin: 105px;
     margin-bottom: 80px;   
     position: relative; 
     text-align: center;  
@@ -72,7 +72,7 @@
 }
 
 .batman_background {
-    background-image: url("../Img/fondo_batman.jpg");
+    background-image: url("../img/fondo_batman.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 25px 25px 0px 0px;
@@ -82,7 +82,7 @@
 }
 
 .mujer_maravilla_background {
-    background-image: url("../Img/Fondo_Mujer_Maravilla.jpg");
+    background-image: url("../img/Fondo_Mujer_Maravilla.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 25px 25px 0px 0px;
@@ -91,7 +91,7 @@
 }
 
 .superman_background {
-    background-image: url("../Img/Fondo_Superman.jpg");
+    background-image: url("../img/Fondo_Superman.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 25px 25px 0px 0px;
@@ -100,7 +100,7 @@
 }
 
 .harley_background {
-    background-image: url("../Img/Fondo_Harley.jpg");
+    background-image: url("../img/Fondo_Harley.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 25px 25px 0px 0px;
@@ -137,7 +137,7 @@
     margin-top: 40px;
 }
 
-.plas_button {
+.add_button {
     align-items: center;
     background-color: #00669F;
     border-radius: 50%;
@@ -186,7 +186,7 @@ footer img {
     }
 
     .footer p{   
-        font-size: 50px;
+        font-size: 8px;
         display: flex;
         justify-content: left;
     }
