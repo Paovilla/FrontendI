@@ -146,6 +146,10 @@
     justify-content: center;
     width: 40px;
     height: 40px;
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+    cursor: pointer;
 }
 
 
@@ -185,10 +189,24 @@ footer img {
 
     }
 
-    .footer p{   
-        font-size: 8px;
+    .add_button {
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    footer {
         display: flex;
         justify-content: left;
+    }
+
+    footer p{        
+        font-size: 12px;       
+    }
+
+    footer img {
+        width: 50px;
     }
 
 
