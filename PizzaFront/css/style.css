@@ -1,8 +1,7 @@
 * {
-    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     margin: 0;
-    padding: 0;     
+    padding: 0; 
 }
 
 .header_container {
@@ -149,7 +148,7 @@
     font-size: 16px;
     height: 100px;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 30px;    
     width: 20%;
 }
