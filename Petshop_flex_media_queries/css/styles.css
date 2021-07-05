@@ -1,0 +1,373 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #222222;
+  height: 25px;
+  color: white;
+  padding-top: 10px;
+  font-size: small;
+  padding-left: 20px;
+}
+
+.ofertas {
+  margin-left: 15px;
+}
+
+.argentina-menu {
+  float: right;
+  padding-right: 35px;
+}
+
+.esp-menu {
+  float: right;
+  padding-right: 15px;
+}
+
+.navbar {
+  align-items: center;
+  background: #f0a83e;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  height: 23px;
+  width: 166.38px;
+  margin-left: 15px;
+
+  
+  
+}
+
+.menu {
+  height: 15px;
+  width: 343px; 
+  margin-right: 15px; 
+}
+
+.banner {
+  width: 100%;
+
+}
+
+.banner-info {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.huella {
+  text-align: center;
+  width: 100%;
+}
+
+.productos-titulo {
+  font-size: 3em;
+  text-align: center;
+  color: #3c2313;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.productos-subtitulo {
+  text-align: center;
+  width: 100%;
+  color: #666666;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.contacto-titulo {
+  display: flex;
+  font-family: Roboto;
+  justify-content: center;
+  color: #3c2313;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.input-formulario {
+  align-self: center;
+  width: 340px;
+  height: 40px;
+}
+
+.multiple {
+  margin-top: 5px;
+}
+
+.formulario-botones {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.reset {
+  height: 34px;
+  margin-top: 30px;
+  width: 110px;   
+}
+
+.enviar {
+  height: 34px;
+  margin-top: 30px;
+  width: 110px;  
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.newsletter {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: #f0a83e;
+  color: white;
+  height: 60px;
+  width: 100%;
+}
+
+.enviar-correo {
+  margin-left: 15px;
+}
+
+
+.input-suscribir {
+  width: 300px;
+  height: 40px;
+  
+  
+}
+
+.info-contacto {
+  display: flex;
+  background: #3c2313;
+  height: 284px;
+  color: white;
+  width: 100%;
+}
+
+.div_iconos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 284px;
+  width: 10%;
+  
+}
+
+.icono {
+  height: 50px;  
+  width: 50px;
+  
+}
+
+.div_info_texto {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  height: 284px;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-top: 20px;
+  
+
+}
+
+.info-texto {
+  color: white;  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.info-sub-texto {
+  color: white;
+  
+}
+
+.div_logo1 {
+  align-items: center;
+  display: flex;
+  height: 284px;
+  justify-content: center;
+  margin-right: 25px;
+  width: 60%;
+}
+
+
+
+.copyright {
+  background: #222222;
+  height: 20px;
+  color: white;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo1 {
+  width: 30%;
+  height: 23px;
+  margin-left: 60%;
+  
+}
+
+.iconos {
+  padding-left: 80px;
+}
+
+@media screen and (max-width: 480px) {
+
+.header {
+  height: 30px;
+  width: 100%;
+}
+
+.navbar {
+  height: 30px;
+  width: 100%;
+}
+
+.logo {
+  height: 23px;
+  width: 125px;
+}
+
+.menu {
+  height: 15px;
+  width: 220px; 
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-info {
+  width: 100%;
+}
+
+.input-formulario {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.productos {
+  text-align: center;
+  width: 100%;
+}
+
+
+footer {
+  width: 100%
+}
+
+.newsletter{
+  width: 100%;
+}
+
+.newsletter span{
+  font-size: 0.6rem;
+}
+
+.info-contacto{
+  width: 100%;
+
+
+}
+
+.info-texto {
+  font-size: 0.5rem;
+  
+}
+
+.info-sub-texto {
+  font-size: 0.5rem;
+  
+}
+
+.input-suscribir {
+  width: 250px;
+  height: 40px;
+}
+
+.div_iconos {
+ 
+  width: 20%;
+  
+}
+
+.icono {
+  height: 40px;  
+  width: 40px;
+  
+}
+
+.div_info_texto {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  height: 284px;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-top: 20px;
+  
+
+}
+
+.info-texto {
+  color: white;  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.info-sub-texto {
+  color: white;
+  
+}
+
+.div_logo1 {
+  margin-right: 25px;
+  width: 50%;
+}
+
+.copyright {
+  font-size: 0.6rem;
+}
+
+.logo1 {
+  width: 70%;
+  
+  
+}
+
+.iconos {
+  padding-left: 80px;
+}
